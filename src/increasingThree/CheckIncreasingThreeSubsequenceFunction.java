@@ -12,8 +12,8 @@ public class CheckIncreasingThreeSubsequenceFunction {
                 min = num;
             } else if (num <= secondMin){ // If min is already found, set second min now
                 secondMin = num;
-            } else if (num > secondMin) { // Could just put "else" but this is more clear
-            	// That means the last number is bigger than min and second min
+            } else if (num > secondMin) { // Could just put "else"
+            	// Current is bigger than min and second min
                 return true;
             }
         }
