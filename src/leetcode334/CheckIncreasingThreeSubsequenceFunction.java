@@ -1,4 +1,4 @@
-package increasingThree;
+package leetcode334;
 
 public class CheckIncreasingThreeSubsequenceFunction {
 	public boolean increasingTriplet(int[] nums) {
