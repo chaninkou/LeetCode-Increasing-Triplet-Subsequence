@@ -2,7 +2,7 @@ package leetcode334;
 
 public class CheckIncreasingThreeSubsequenceFunction {
 	public boolean increasingTriplet(int[] nums) {
-		// This will store the min, second min number
+		// This will store the min and second min number
         int min = Integer.MAX_VALUE;
         int secondMin = Integer.MAX_VALUE;
         
